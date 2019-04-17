@@ -13,12 +13,12 @@ _2019/04/17_
 
 ---
 
-### The different types of tests   The pyramid
+### The different types of tests <br/> The pyramid
 ![testing pyramid](http://thelatestsoftwaretestingnews.co.uk/wp-content/uploads/2018/07/Screen-Shot-2018-07-04-at-10.35.26.png)
 
 ---
 
-### The different types of tests   State of the "art"
+### The different types of tests <br/> State of the "art"
 
 - Unit tests => PHPUnit
 - Integration / Functional / API / Feature tests => currently using a mix of internal test framework (PHP, PHPUnit, MOSTest ...), and pytest 
@@ -26,7 +26,7 @@ _2019/04/17_
 
 ---
 
-### The different types of tests   Where we want to go
+### The different types of tests <br/> Where we want to go
 
 - Unit tests => PHPUnit
 - Functional tests (Consolidation of everything that is not unit nor UI tests) => Codeception suites and pytest
@@ -34,7 +34,7 @@ _2019/04/17_
 
 ---
 
-### The different types of tests   Where we want to go
+### The different types of tests <br/> Where we want to go
 <br/>
 **It is actually very important to draw the line defining the responsibility of developers and the one of TAs**
 
@@ -48,7 +48,7 @@ _2019/04/17_
 
 ---
 
-### Codeception code structure   Cept files
+### Codeception code structure <br/> Cept files
 
 - No OOP structure, equivalent to single scripts
 - Everything is very sequential, can be used to test user workflows the same way pytest is working
@@ -57,7 +57,7 @@ _2019/04/17_
 
 ---
 
-### Codeception code structure   Cest files
+### Codeception code structure <br/> Cest files
 
 - Use OOP to test pieces of the application in small chuncks
 - Possibility to test as many scenarii as we want in a single class
@@ -66,7 +66,7 @@ _2019/04/17_
 
 ---
 
-### Codeception code structure   Intuitive functions
+### Codeception code structure <br/> Intuitive functions
 
 ```php
 $I->amOnUrl('https://www.google.com');
